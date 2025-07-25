@@ -1,4 +1,10 @@
-import { BeforeInsert, BeforeUpdate, Column, Entity, OneToMany, PrimaryGeneratedColumn } from "typeorm";
+import { BeforeInsert, 
+  BeforeUpdate, 
+  Column, 
+  Entity, 
+  OneToMany, 
+  PrimaryGeneratedColumn 
+} from "typeorm";
 import { ProductImage } from "./product_image.entity";
 
 @Entity({
@@ -83,4 +89,3 @@ export class Product {
       .replaceAll("'", '');
   }
 }
-
