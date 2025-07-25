@@ -3,6 +3,8 @@
 /node_modules
 /build
 /postgres
+/static/products
+/public/products
 
 # Logs
 logs
