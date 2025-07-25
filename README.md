@@ -33,7 +33,12 @@
   docker-compose up -d
  ```
 
- 5. Cargar la base de datos
+ 5. Ejecutar el entorno de desarrollo
+ ```
+  npm run start:dev
+ ```
+
+ 6. Cargar la base de datos
  ```
   http://localhost:3000/api/seed
  ```
